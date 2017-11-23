@@ -35,7 +35,7 @@ class FilmController extends Controller
       ]);
 
       if($validator->fails()){
-
+          return redirect()->back()->withErrors($validator)->withInput($request->all());
       }
       else{
         $image = $request->file('photo');
@@ -88,7 +88,7 @@ class FilmController extends Controller
       ]);
 
       if($validator->fails()){
-          dd($validator->messages());
+          return redirect()->back()->withErrors($validator)->withInput($request->all());
       }
       else{
           $comment = new Comment($request->all());
