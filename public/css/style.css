@@ -1,0 +1,65 @@
+#index-top{
+    background-image: url('');
+}
+
+a{
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+.shadow {
+  -moz-box-shadow:    0px 1px 2px 1px #ccc;
+  -webkit-box-shadow: 0px 1px 2px 1px #ccc;
+  box-shadow:         0px 1px 2px 1px #ccc;
+}
+
+#single-film-div{
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+}
+
+#comment-film-div{
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.comment-name{
+    margin-bottom: 15px;
+}
+
+.film-name{
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.film-inner-div{
+   padding: 20px;
+}
+
+.my_submit_btn{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 190px;
+}
+
+.grey_text{
+    color: #99A3A4;
+}
+
+#index-top{
+  margin-bottom: 100px;
+}
+
+.film-img{
+   max-height:400px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
