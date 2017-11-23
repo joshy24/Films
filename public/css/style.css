@@ -1,6 +1,3 @@
-#index-top{
-    background-image: url('');
-}
 
 a{
    text-decoration: none;
@@ -10,10 +7,22 @@ a:hover{
    text-decoration: none;
 }
 
+.glyphicon{
+   width: 100px;
+   height: 100px;
+}
+
 .shadow {
   -moz-box-shadow:    0px 1px 2px 1px #ccc;
   -webkit-box-shadow: 0px 1px 2px 1px #ccc;
   box-shadow:         0px 1px 2px 1px #ccc;
+}
+
+.films-single-film{
+   margin-bottom: 15px;
+   margin-top: 15px;
+   padding-top: 15px;
+   background-color: #FFFFFF;
 }
 
 #single-film-div{

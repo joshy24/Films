@@ -78,9 +78,11 @@ Film
                      </div>
                  </form>
                  <hr/>
+             @else
+             <h5>You must <a href="{{ route('login') }}">login</a> to comment</h5>
              @endif
              <br/>
-
+             
              @if($comments)
                  @foreach($comments as $comment)
                  <div class="shadow" id="comment-film-div">
